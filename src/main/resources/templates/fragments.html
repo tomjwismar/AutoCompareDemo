@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head th:fragment="head">
+    <link th:href="@{/styles.css}" rel="stylesheet" />
+    <title>Auto Compare</title>
+
+</head>
+
+<body>
+    <nav th:fragment="navigation" class="navbar navbar-defualt">
+    <ul>
+        <li><a class="active" th:href="@{/index}">Home</a></li>
+        <li><a th:href="@{/blog}">Blog</a></li>
+        <li><a th:href="@{/search}">Search</a></li>
+        <li><a th:href="@{/compare}">Compare</a></li>
+        <li><a th:href="@{/register}">Register</a></li>
+        <li><a th:href="@{/login}">Login</a></li>
+    </ul>
+    </nav>
+</body>
+</html>
